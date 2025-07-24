@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'accounts',
+    'games',
 ]
 
 MIDDLEWARE = [
@@ -146,3 +147,5 @@ GOOGLE_CLIENT_ID = os.environ.get('GOOGLE_CLIENT_ID')
 GOOGLE_CLIENT_SECRET = os.environ.get('GOOGLE_CLIENT_SECRET')
 
 REDIRECT_URI = os.environ.get("REDIRECT_URI")
+
+GOOGLE_API_KEY = os.environ.get('GOOGLE_API_KEY')
